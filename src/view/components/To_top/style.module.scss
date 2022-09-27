@@ -1,0 +1,26 @@
+.to-top{
+  position: fixed;
+  bottom: 0px;
+  right: 25px;
+  background: #44aeea;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 4rem;
+  color: white;
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 30;
+}
+.show{
+  bottom: 25px;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.show:hover{
+  text-shadow: 0 0 7px rgba(50, 50, 50, 0.8);
+  opacity: 1;
+  box-shadow: 0 0 10px 1px #44aeea;
+}
