@@ -7,13 +7,13 @@ const Home = () => {
       <div 
         className={styles.homeImg} 
         style={
-          {backgroundImage: "url(/imgs/top/programming.jpg"}
+          {backgroundImage: "url(" + process.env.PUBLIC_URL + "/imgs/top/programming.jpg)"}
         }
       ></div>
       <div className={styles.home} id="home">
         <div className={styles.box}>
           <h1>Fumihito <br />Sudo</h1>
-          <p>あなたのデザイン<br /><span>完璧に</span>コーディングします</p>
+          <p>テキスト<br /><span>テキスト</span>テキスト</p>
         </div>
         <div className={styles.arrow}>
           <p>SCROLL</p>

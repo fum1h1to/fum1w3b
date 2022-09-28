@@ -1,7 +1,7 @@
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import To_top from '../../components/To_top/To_top';
-import Home from './Home/Home';
+import Home from './components/Home/Home';
 import './style.module.scss';
 
 const Top = () => {
@@ -11,6 +11,10 @@ const Top = () => {
       <Header />
       
       <Home />
+      <main>
+        
+      </main>
+
       <Footer />
     </div>
   );
