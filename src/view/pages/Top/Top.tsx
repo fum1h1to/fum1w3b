@@ -3,6 +3,7 @@ import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import To_top from '../../components/To_top/To_top';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import PageSection from './components/PageSection/PageSection';
 import './style.module.scss';
@@ -19,14 +20,14 @@ const Top = () => {
       <main>
         <About />
         <PageSection
-          sectionId='contact'
-          bg_color='white'
-          sectionTtl="Contact"
-          sectionUnderTtl="get in touch"
-          sectionSubTtl="テキストテキスト"
+          sectionId='output'
+          bg_color='black'
+          sectionTtl="Output"
+          sectionUnderTtl="制作物"
         >
-          えええええ
+          準備中
         </PageSection>
+        <Contact />
       </main>
 
       <Footer />

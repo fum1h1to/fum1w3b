@@ -23,9 +23,9 @@ const Header = () => {
           <ul>
             <li><a href="#home" onClick={spAction}>Home</a></li>
             <li><a href="#about" onClick={spAction}>About</a></li>
-            <li><a href="#service" onClick={spAction}>Services</a></li>
+            {/* <li><a href="#service" onClick={spAction}>Services</a></li>
             <li><a href="#skill" onClick={spAction}>Skills</a></li>
-            <li><a href="#work" onClick={spAction}>Works</a></li>
+            <li><a href="#work" onClick={spAction}>Works</a></li> */}
             <li><a href="#contact" onClick={spAction}>Contact</a></li>
           </ul>
         </nav>

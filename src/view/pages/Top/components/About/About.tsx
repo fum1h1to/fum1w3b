@@ -9,7 +9,7 @@ const About = () => {
       sectionId='about'
       bg_color='white'
       sectionTtl="About me"
-      sectionUnderTtl="who am i"
+      sectionUnderTtl="私について"
     >
       <div className={styles.wrap}>
         <div className={styles.left}>
@@ -31,12 +31,12 @@ const About = () => {
           </h3>
           <span className={styles.word}>須藤文仁（すどうふみひと）</span>
           <span className={styles.word}>2002年生まれ　横浜市出身</span>
-          <p>~2019年：高校では吹奏楽部に所属し、<a href="https://www.japan-mba.org/" target="blank">一般社団法人日本マーチングバンド協会</a>が主催するマーチング全国大会に出場。在籍中に二度の日本一を経験した。</p>
-          <p>2020年：将来は、昔から興味のあったサイバーセキュリティ分野で働きたいと考え、情報系の大学に進学。<br />
+          <p>~2019年：高校では吹奏楽部に所属し、<a href="https://www.japan-mba.org/" target="_blank" rel="noreferrer noopener">一般社団法人日本マーチングバンド協会</a>が主催するマーチング全国大会に出場。在籍中に二度の日本一を経験した。</p>
+          <p>2020年：将来は、昔から興味のあった<span>サイバーセキュリティ分野</span>で働きたいと考え、<span>情報系の大学</span>に進学。<br />
             現在は、サイバーセキュリティの勉強の一貫として学んでいたweb関連の技術に興味を持ち、web制作会社でアルバイトとして働いている。
           </p>
           <div className={styles.icons}>
-            <a href="https://github.com/fum1h1to" target="blank"><i className={`${styles.github} fab fa-brands fa-github`}></i></a>
+            <a href="https://github.com/fum1h1to" target="_blank" rel="noreferrer noopener"><i className={`${styles.github} fab fa-brands fa-github`}></i></a>
             <a href="mailto:Engineer.FumiM@gmail.com"><i className={`${styles.mail} far fa-envelope`}></i></a>
           </div>
         </div>

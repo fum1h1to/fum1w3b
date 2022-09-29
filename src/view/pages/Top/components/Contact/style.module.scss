@@ -1,0 +1,54 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  li {
+    text-align: center;
+    padding: 0 20px;
+
+    .type {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    a {
+      font-size: 3rem;
+      transition: all 0.3s ease;
+
+      .twitter {
+        color: #44aeea;
+      }
+
+      .github {
+        color: #000;
+      }
+
+      .mail {
+        color: #DC4D41;
+      }
+    }
+
+    a:hover {
+      text-shadow: 0 0 7px rgba(50, 50, 50, 0.8);
+    }
+
+    .exp {
+      font-size: 1.8rem;
+      margin-top: 15px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    display: block;
+
+    li {
+      width: 100%;
+    }
+
+    li:not(:last-of-type) {
+      margin-bottom: 50px;
+    }
+  }
+}
