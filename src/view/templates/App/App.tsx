@@ -19,7 +19,7 @@ const AppRouter = memo(() => {
   }, []);
 
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="" element={ <Top /> } />
         <Route path="*" element={<h1>404</h1>} />
