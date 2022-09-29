@@ -1,7 +1,9 @@
-import base_styles from 'util/css/base.module.scss';
+import base_styles from 'common/css/base.module.scss';
 import PageSection from '../PageSection/PageSection';
 import styles from './style.module.scss';
 import Typed from 'react-typed';
+
+import profImg from 'common/imgs/top/img-myprof.jpg';
 
 const About = () => {
   return (
@@ -13,7 +15,7 @@ const About = () => {
     >
       <div className={styles.wrap}>
         <div className={styles.left}>
-          <img src={process.env.PUBLIC_URL + "/imgs/top/img-myprof.jpg"} alt="須藤文仁" />
+          <img src={profImg} alt="須藤文仁" />
         </div>
         <div className={styles.right}>
           <h3>

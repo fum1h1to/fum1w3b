@@ -1,4 +1,4 @@
-import base_styles from 'util/css/base.module.scss';
+import base_styles from 'common/css/base.module.scss';
 import PageSection from '../PageSection/PageSection';
 import styles from './style.module.scss';
 

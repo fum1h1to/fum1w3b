@@ -1,6 +1,8 @@
 import { useGlobalStateContext } from 'provider/GlobalStateProvider';
-import base_styles from 'util/css/base.module.scss';
+import base_styles from 'common/css/base.module.scss';
 import styles from './style.module.scss';
+
+import bgImg from "common/imgs/top/img-programming.jpg";
 
 const Home = () => {
   const { windowScroll } = useGlobalStateContext();
@@ -10,7 +12,7 @@ const Home = () => {
       <div 
         className={`${styles.homeImg} ${windowScroll.sy > 1500 ? styles.noShow : ''}`} 
         style={
-          {backgroundImage: "url(" + process.env.PUBLIC_URL + "/imgs/top/img-programming.jpg)"}
+          {backgroundImage: "url(" + bgImg}
         }
       ></div>
       <div className={styles.home} id="home">
