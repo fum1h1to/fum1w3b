@@ -1,11 +1,14 @@
+import { useGlobalStateContext } from 'provider/GlobalStateProvider';
 import base_styles from 'util/css/base.module.scss';
 import styles from './style.module.scss';
 
 const Home = () => {
+  const { windowScroll } = useGlobalStateContext();
+
   return (
     <>
       <div 
-        className={styles.homeImg} 
+        className={`${styles.homeImg} ${windowScroll.sy > 1500 ? styles.noShow : ''}`} 
         style={
           {backgroundImage: "url(" + process.env.PUBLIC_URL + "/imgs/top/programming.jpg)"}
         }

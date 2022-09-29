@@ -10,10 +10,10 @@
   left: 0;
   z-index: -10;
   display: block;
-}
 
-.homeImg.noShow {
-  display: none;
+  &.noShow {
+    display: none;
+  }
 }
 
 .home {
