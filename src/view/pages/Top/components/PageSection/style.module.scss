@@ -20,8 +20,8 @@
     background: #2D2828;
   }
 
-  .section__title::after {
-    content: "a";
+  .section__underTitle {
+    display: block;
     position: absolute;
     bottom: -14px;
     left: 50%;
@@ -88,7 +88,7 @@
     width: 100%;
     height: 100%;
     background: #2D2828;
-    z-index: -1;
+    z-index: 3;
     transform: skewY(2deg);
   }
 
@@ -103,12 +103,12 @@
   .section__title {
     color: white;
   }
-
+  
   .section__title::before {
     background: white;
   }
-
-  .section__title::after {
+  
+  .section__underTitle {
     background: #2D2828;
   }
 }

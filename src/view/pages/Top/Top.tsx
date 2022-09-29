@@ -2,6 +2,7 @@ import Loading from 'view/components/Loading/Loading';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import To_top from '../../components/To_top/To_top';
+import About from './components/About/About';
 import Home from './components/Home/Home';
 import PageSection from './components/PageSection/PageSection';
 import './style.module.scss';
@@ -15,17 +16,16 @@ const Top = () => {
       <Header />
 
       <Home />
-      <main style={{ height: 2000 }}>
+      <main>
+        <About />
         <PageSection
-          sectionId='about'
+          sectionId='contact'
           bg_color='white'
+          sectionTtl="Contact"
+          sectionUnderTtl="get in touch"
+          sectionSubTtl="テキストテキスト"
         >
-          <div className="about">
-            <h2 className="section__title">About me</h2>
-            <div className="about__content content">
-              aiueo
-            </div>
-          </div>
+          えええええ
         </PageSection>
       </main>
 

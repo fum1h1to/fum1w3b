@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -10;
+  z-index: -1;
   display: block;
 
   &.noShow {
@@ -30,7 +30,7 @@
   .box {
     text-align: center;
     display: inline-block;
-    background: rgba(35, 42, 43, .6);
+    background: rgba(35, 42, 43, .75);
     padding: 20px 40px;
     box-shadow: 0 0 20px 20px rgba(35, 42, 43, .6);
 
@@ -70,7 +70,7 @@
       }
 
       span {
-        color: #ffff00;
+        color: #a844ea;
       }
     }
 

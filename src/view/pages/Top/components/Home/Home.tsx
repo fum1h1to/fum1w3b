@@ -10,13 +10,13 @@ const Home = () => {
       <div 
         className={`${styles.homeImg} ${windowScroll.sy > 1500 ? styles.noShow : ''}`} 
         style={
-          {backgroundImage: "url(" + process.env.PUBLIC_URL + "/imgs/top/programming.jpg)"}
+          {backgroundImage: "url(" + process.env.PUBLIC_URL + "/imgs/top/img-programming.jpg)"}
         }
       ></div>
       <div className={styles.home} id="home">
         <div className={styles.box}>
           <h1>Fumihito <br />Sudo</h1>
-          <p>テキスト<br /><span>テキスト</span>テキスト</p>
+          <p><span>サイバーセキュリティ</span>に<br />興味のある大学生</p>
         </div>
         <div className={styles.arrow}>
           <p>SCROLL</p>
