@@ -13,7 +13,7 @@ const About = () => {
     >
       <div className={styles.wrap}>
         <div className={styles.left}>
-          <img src={process.env.PUBLIC_URL + "./imgs/top/img-myprof.jpg"} alt="須藤文仁" />
+          <img src={process.env.PUBLIC_URL + "/imgs/top/img-myprof.jpg"} alt="須藤文仁" />
         </div>
         <div className={styles.right}>
           <h3>
