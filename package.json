@@ -22,11 +22,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build docs",
+    "build": "rm -rf docs && react-scripts build && mv build docs",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy-gitup": "git add . && git commit -m \"deploy\" && git push origin main",
-    "deploy": "rm -rf docs && npm run build && npm run deploy-gitup"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
