@@ -1,7 +1,7 @@
 {
   "name": "220927_fumiwebs2",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "https://fum1h1to.github.io/220927_fumiwebs2/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -24,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy-gitup": "git add . && git commit -m 'deploy' && git push origin main",
+    "deploy": "rm -rf docs && npm run build && mv build docs && npm run deploy-gitup"
   },
   "eslintConfig": {
     "extends": [
