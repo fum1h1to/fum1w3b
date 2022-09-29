@@ -1,6 +1,7 @@
 import { useGlobalStateContext } from 'provider/GlobalStateProvider';
 import base_styles from 'common/css/base.module.scss';
 import styles from './style.module.scss';
+import Typed from 'react-typed';
 
 import bgImg from "common/imgs/top/img-programming.jpg";
 
@@ -18,7 +19,20 @@ const Home = () => {
       <div className={styles.home} id="home">
         <div className={styles.box}>
           <h1>Fumihito <br />Sudo</h1>
-          <p><span>サイバーセキュリティ</span>に<br />興味のある大学生</p>
+          <p>
+            <span>
+              <Typed
+                strings={["サイバーセキュリティ", "Cyber Security", "ホワイトハッカー", "White Hat Hacker"]}
+                typeSpeed={90}
+                startDelay={0}
+                backSpeed={60}
+                backDelay={750}
+                loop={true}
+                cursorChar={"|"}
+              />
+            </span>
+            に<br />興味のある大学生
+          </p>
         </div>
         <div className={styles.arrow}>
           <p>SCROLL</p>
