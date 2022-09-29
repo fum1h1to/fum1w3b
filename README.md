@@ -1,2 +1,5 @@
 # 220927_fumiwebs2
-fumiwebs二代目
+fumiwebs二代目<br>
+昔web系の企業のアルバイトのために作ったポートフォリオを改良
+
+Reactを用いて再構築
