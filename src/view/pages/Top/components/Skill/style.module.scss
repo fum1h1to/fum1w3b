@@ -1,0 +1,93 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+  }
+
+  .left {
+    width: calc(50% - 30px);
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+    }
+  }
+
+  .right {
+    width: calc(50% - 30px);
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      margin-top: 35px;
+    }
+  }
+
+  .skillCategory {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 45px;
+    color: white;
+
+    @media screen and (max-width: 800px) {
+      margin-bottom: 30px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 50%;
+      min-width: 180px;
+      height: 2px;
+      border-radius: 1px;
+      background: white;
+    }
+
+    &__subTtl {
+      display: block;
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0 10px;
+      background: #2D2828;
+      font-size: 1.2rem;
+      color: #44aeea;
+    }
+  }
+
+  .logoList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    .logoItem {
+      width: calc(25% - 15px);
+
+      @media screen and (min-width: 801px) {
+        margin-bottom: 20px;
+        &:not(:nth-of-type(4n)) {
+          margin-right: 20px;
+        }
+      }
+
+      @media screen and (max-width: 800px) {
+        width: calc(33% - 10px);
+        margin-bottom: 15px;
+
+        &:not(:nth-of-type(3n)) {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+}

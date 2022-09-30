@@ -6,6 +6,9 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import PageSection from './components/PageSection/PageSection';
+import Product from './components/Product/Product';
+import Skill from './components/Skill/Skill';
+import History from './components/History/History';
 import './style.module.scss';
 
 const Top = () => {
@@ -19,14 +22,9 @@ const Top = () => {
       <Home />
       <main>
         <About />
-        <PageSection
-          sectionId='output'
-          bg_color='black'
-          sectionTtl="Output"
-          sectionUnderTtl="制作物"
-        >
-          準備中
-        </PageSection>
+        <Skill />
+        <Product />
+        <History />
         <Contact />
       </main>
 

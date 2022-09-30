@@ -1,15 +1,34 @@
 {
   "files": {
-    "main.css": "/220927_fumiwebs2/static/css/main.a7f8ea19.css",
-    "main.js": "/220927_fumiwebs2/static/js/main.727a85f2.js",
+    "main.css": "/220927_fumiwebs2/static/css/main.0fe85e08.css",
+    "main.js": "/220927_fumiwebs2/static/js/main.d301ac80.js",
     "static/media/img-programming.jpg": "/220927_fumiwebs2/static/media/img-programming.97210ca51b890564a8ca.jpg",
+    "static/media/icon-virtualbox.png": "/220927_fumiwebs2/static/media/icon-virtualbox.71c58a43d7c313964ac2.png",
     "static/media/img-myprof.jpg": "/220927_fumiwebs2/static/media/img-myprof.7be7a801c98bd27395ab.jpg",
+    "static/media/icon-vscode.png": "/220927_fumiwebs2/static/media/icon-vscode.a61dc62c499ed3aeefdc.png",
+    "static/media/icon-postgres.png": "/220927_fumiwebs2/static/media/icon-postgres.52d31cc1fd8306d5ff52.png",
+    "static/media/icon-python.png": "/220927_fumiwebs2/static/media/icon-python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/icon-react.png": "/220927_fumiwebs2/static/media/icon-react.428839d4924b447d4d50.png",
+    "static/media/icon-sass.png": "/220927_fumiwebs2/static/media/icon-sass.c5da83bb9ff45b84e0e7.png",
+    "static/media/icon-arduino.png": "/220927_fumiwebs2/static/media/icon-arduino.7f6cd26f8a524567b857.png",
+    "static/media/icon-processing.png": "/220927_fumiwebs2/static/media/icon-processing.4695df8ed7d9d16635ee.png",
+    "static/media/icon-java.png": "/220927_fumiwebs2/static/media/icon-java.ddf8676bd569fe01ab44.png",
+    "static/media/icon-c-sharp.png": "/220927_fumiwebs2/static/media/icon-c-sharp.4a32f53d425c7ad4cb05.png",
+    "static/media/icon-node.png": "/220927_fumiwebs2/static/media/icon-node.e328955d6bbbf3ebc72b.png",
+    "static/media/icon-cpp.png": "/220927_fumiwebs2/static/media/icon-cpp.24a8f93854ab092f17a7.png",
+    "static/media/icon-django.png": "/220927_fumiwebs2/static/media/icon-django.7d6de7bf699d8dcae2b6.png",
+    "static/media/icon-firebase.png": "/220927_fumiwebs2/static/media/icon-firebase.6ea3b0b39b97b0e49515.png",
+    "static/media/icon-gulp.png": "/220927_fumiwebs2/static/media/icon-gulp.e2afe5c451267407c8bf.png",
+    "static/media/icon-css3.png": "/220927_fumiwebs2/static/media/icon-css3.463e319bad8e0edf1ef7.png",
+    "static/media/icon-bootstrap.png": "/220927_fumiwebs2/static/media/icon-bootstrap.268c4375260420e8d982.png",
+    "static/media/icon-ts.png": "/220927_fumiwebs2/static/media/icon-ts.af108db04a54d784da9b.png",
+    "static/media/icon-js.png": "/220927_fumiwebs2/static/media/icon-js.3dfb665e058d08c99f28.png",
     "index.html": "/220927_fumiwebs2/index.html",
-    "main.a7f8ea19.css.map": "/220927_fumiwebs2/static/css/main.a7f8ea19.css.map",
-    "main.727a85f2.js.map": "/220927_fumiwebs2/static/js/main.727a85f2.js.map"
+    "main.0fe85e08.css.map": "/220927_fumiwebs2/static/css/main.0fe85e08.css.map",
+    "main.d301ac80.js.map": "/220927_fumiwebs2/static/js/main.d301ac80.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7f8ea19.css",
-    "static/js/main.727a85f2.js"
+    "static/css/main.0fe85e08.css",
+    "static/js/main.d301ac80.js"
   ]
 }

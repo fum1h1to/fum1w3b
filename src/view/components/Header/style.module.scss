@@ -37,8 +37,10 @@ header {
             transition: all 0.3s ease;
           }
 
-          a:hover {
-            color: #44aeea;
+          @media screen and (min-width: 801px) {
+            a:hover {
+              color: #44aeea;
+            }
           }
         }
       }
@@ -80,8 +82,10 @@ header {
       nav {
         ul {
           li {
-            a:hover {
-              color: #ccc;
+            @media screen and (min-width: 801px) {
+              a:hover {
+                color: #ccc;
+              }
             }
           }
         }
@@ -133,7 +137,7 @@ header {
       }
 
       .humber {
-          &.active {
+        &.active {
           .humber__bar:nth-of-type(1) {
             transform-origin: 0 50%;
             transform: rotate(38deg);

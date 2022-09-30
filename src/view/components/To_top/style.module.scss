@@ -1,4 +1,4 @@
-.to-top{
+.to-top {
   position: fixed;
   bottom: 0px;
   right: 25px;
@@ -14,13 +14,17 @@
   transition: all 0.3s ease;
   z-index: 9;
 }
-.show{
+
+.show {
   bottom: 25px;
   opacity: 0.9;
   cursor: pointer;
 }
-.show:hover{
-  text-shadow: 0 0 7px rgba(50, 50, 50, 0.8);
-  opacity: 1;
-  box-shadow: 0 0 10px 1px #44aeea;
+
+@media screen and (min-width: 801px) {
+  .show:hover {
+    text-shadow: 0 0 7px rgba(50, 50, 50, 0.8);
+    opacity: 1;
+    box-shadow: 0 0 10px 1px #44aeea;
+  }
 }

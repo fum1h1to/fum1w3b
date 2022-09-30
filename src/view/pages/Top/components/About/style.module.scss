@@ -24,9 +24,11 @@
     }
   }
 
-  .left:hover {
-    img {
-      transform: scale(1.1);
+  @media screen and (min-width: 801px) {
+    .left:hover {
+      img {
+        transform: scale(1.1);
+      }
     }
   }
 
@@ -66,8 +68,10 @@
         transition: all 0.3s ease;
       }
 
-      a:hover {
-        color: #a844ea;
+      @media screen and (min-width: 801px) {
+        a:hover {
+          color: #a844ea;
+        }
       }
 
       span {
@@ -96,8 +100,10 @@
         }
       }
 
-      a:hover {
-        text-shadow: 0 0 7px rgba(50, 50, 50, 0.8);
+      @media screen and (min-width: 801px) {
+        a:hover {
+          text-shadow: 0 0 7px rgba(50, 50, 50, 0.8);
+        }
       }
     }
   }
