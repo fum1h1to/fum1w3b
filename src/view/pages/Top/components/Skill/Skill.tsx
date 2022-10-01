@@ -37,7 +37,142 @@ import icon_postgres from 'common/imgs/top/icon/icon-postgres.png';
 import icon_nginx from 'common/imgs/top/icon/icon-nginx.png';
 import icon_httpd from 'common/imgs/top/icon/icon-httpd.png';
 
+const skilldata_1 = [
+  {
+    name: "HTML5",
+    imgsrc: icon_html5,
+  },
+  {
+    name: "CSS3",
+    imgsrc: icon_css3,
+  },
+  {
+    name: "SASS",
+    imgsrc: icon_sass,
+  },
+  {
+    name: "Bootstrap5",
+    imgsrc: icon_bootstrap,
+  },
+  {
+    name: "JavaScript",
+    imgsrc: icon_js,
+  },
+  {
+    name: "jQuery",
+    imgsrc: icon_jquery,
+  },
+  {
+    name: "Node.js",
+    imgsrc: icon_node,
+  },
+  {
+    name: "Gulp.js",
+    imgsrc: icon_gulp,
+  },
+  {
+    name: "TypeScript",
+    imgsrc: icon_ts,
+  },
+  {
+    name: "React",
+    imgsrc: icon_react,
+  },
+  {
+    name: "Material UI",
+    imgsrc: icon_mui,
+  },
+  {
+    name: "PHP",
+    imgsrc: icon_php,
+  },
+  {
+    name: "Python3",
+    imgsrc: icon_python,
+  },
+  {
+    name: "Django",
+    imgsrc: icon_django,
+  },
+  {
+    name: "Java",
+    imgsrc: icon_java,
+  },
+  {
+    name: "Processing",
+    imgsrc: icon_processing,
+  },
+  {
+    name: "C/C++",
+    imgsrc: icon_cpp,
+  },
+  {
+    name: "C#",
+    imgsrc: icon_c_sharp,
+  },
+  {
+    name: "Arduino",
+    imgsrc: icon_arduino,
+  },
+]
+
+const skilldata_2 = [
+  {
+    name: "VSCode",
+    imgsrc: icon_vscode,
+  },
+  {
+    name: "Git",
+    imgsrc: icon_git,
+  },
+  {
+    name: "GitHub",
+    imgsrc: icon_github,
+  },
+  {
+    name: "SVN",
+    imgsrc: icon_svn,
+  },
+  {
+    name: "Firebase",
+    imgsrc: icon_firebase,
+  },
+  {
+    name: "VirtualBox",
+    imgsrc: icon_virtualbox,
+  },
+  {
+    name: "Docker",
+    imgsrc: icon_docker,
+  },
+  {
+    name: "Kali Linux",
+    imgsrc: icon_kali,
+  },
+  {
+    name: "Burp Suite",
+    imgsrc: icon_burpsuite,
+  },
+  {
+    name: "Wireshark",
+    imgsrc: icon_wireshark,
+  },
+  {
+    name: "PostgreSQL",
+    imgsrc: icon_postgres,
+  },
+  {
+    name: "Nginx",
+    imgsrc: icon_nginx,
+  },
+  {
+    name: "Apache httpd",
+    imgsrc: icon_httpd,
+  },
+]
+
 const Skill = () => {
+
   return (
     <PageSection
       sectionId='skill'
@@ -53,140 +188,19 @@ const Skill = () => {
             <span className={styles.skillCategory__subTtl}>言語とライブラリ</span>
           </h3>
           <ul className={styles.logoList}>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="HTML5"
-                imgsrc={icon_html5}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="CSS3"
-                imgsrc={icon_css3}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="SASS"
-                imgsrc={icon_sass}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Bootstrap5"
-                imgsrc={icon_bootstrap}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="JavaScript"
-                imgsrc={icon_js}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="jQuery"
-                imgsrc={icon_jquery}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Node.js"
-                imgsrc={icon_node}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Gulp.js"
-                imgsrc={icon_gulp}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="TypeScript"
-                imgsrc={icon_ts}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="React"
-                imgsrc={icon_react}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Material UI"
-                imgsrc={icon_mui}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="PHP"
-                imgsrc={icon_php}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Python3"
-                imgsrc={icon_python}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Django"
-                imgsrc={icon_django}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Java"
-                imgsrc={icon_java}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Processing"
-                imgsrc={icon_processing}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="C/C++"
-                imgsrc={icon_cpp}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="C#"
-                imgsrc={icon_c_sharp}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Arduino"
-                imgsrc={icon_arduino}
-                useModal={false}
-              />
-            </li>
-
+            {
+              skilldata_1.map((ele, index) => {
+                return (
+                  <li className={styles.logoItem} key={index} data-aos="fade-up" data-aos-delay={index * 100}>
+                    <LogoBox
+                      name={ele.name}
+                      imgsrc={ele.imgsrc}
+                      useModal={false}
+                    />
+                  </li>
+                );
+              })
+            }
           </ul>
         </div>
         <div className={styles.right}>
@@ -195,97 +209,19 @@ const Skill = () => {
             <span className={styles.skillCategory__subTtl}>ツールとその他</span>
           </h3>
           <ul className={styles.logoList}>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="VSCode"
-                imgsrc={icon_vscode}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Git"
-                imgsrc={icon_git}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="GitHub"
-                imgsrc={icon_github}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="SVN"
-                imgsrc={icon_svn}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Firebase"
-                imgsrc={icon_firebase}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="VirtualBox"
-                imgsrc={icon_virtualbox}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Docker"
-                imgsrc={icon_docker}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Kali Linux"
-                imgsrc={icon_kali}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Burp Suite"
-                imgsrc={icon_burpsuite}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Wireshark"
-                imgsrc={icon_wireshark}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="PostgreSQL"
-                imgsrc={icon_postgres}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Nginx"
-                imgsrc={icon_nginx}
-                useModal={false}
-              />
-            </li>
-            <li className={styles.logoItem}>
-              <LogoBox
-                name="Apache httpd"
-                imgsrc={icon_httpd}
-                useModal={false}
-              />
-            </li>
+            {
+              skilldata_2.map((ele, index) => {
+                return (
+                  <li className={styles.logoItem} key={index} data-aos="fade-up" data-aos-delay={index * 100}>
+                    <LogoBox
+                      name={ele.name}
+                      imgsrc={ele.imgsrc}
+                      useModal={false}
+                    />
+                  </li>
+                );
+              })
+            }
           </ul>
         </div>
       </div>

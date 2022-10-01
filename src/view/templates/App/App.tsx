@@ -4,6 +4,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Top from '../../pages/Top/Top';
 import './style.module.scss';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const AppRouter = memo(() => {
 
   const { setIsLoading } = useGlobalStateContext();
@@ -29,6 +32,12 @@ const AppRouter = memo(() => {
 });
 
 function App() {
+  useEffect(() => {
+    AOS.init({ 
+      duration: 1000,
+      once: true,
+    });
+  }, [])
 
   return (
     <GlobalStateProvider>

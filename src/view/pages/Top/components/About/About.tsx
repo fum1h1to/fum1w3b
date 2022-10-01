@@ -14,7 +14,7 @@ const About = () => {
       sectionUnderTtl="私について"
     >
       <div className={styles.wrap}>
-        <div className={styles.left}>
+        <div className={styles.left} data-aos="fade-up-right">
           <img src={profImg} alt="須藤文仁" />
         </div>
         <div className={styles.right}>

@@ -12,7 +12,7 @@ const ProductBox = (props: {
   }[];
 }) => {
   return (
-    <div className={styles.productBox}>
+    <div className={styles.productBox} data-aos="fade-up">
       <div className={`${styles.productBox__inner}`}>
         <div className={styles.productBox__img}>
           <img src={props.imgsrc} alt="" />
@@ -26,9 +26,9 @@ const ProductBox = (props: {
           </div>
           { props.tech_icon.length > 0 || props.link.length > 0?
           <div className={styles.productBox__iconArea}>
-            {props.tech_icon.map((iconsrc: string) => {
+            {props.tech_icon.map((iconsrc, index) => {
               return (
-                <div className={styles.icon}>
+                <div className={styles.icon} key={index}>
                   <img src={iconsrc} alt="" />
                 </div>
               )
@@ -36,9 +36,9 @@ const ProductBox = (props: {
             <div style={{width: "100%"}} className={base_styles.spOnly}></div>
             { props.link.length > 0 ?
             <div className={styles.linkwrap}>
-              {props.link.map((ele) => {
+              {props.link.map((ele, index) => {
                 return (
-                  <a href={ele.link_url} className={styles.link} target="_blank" rel="noreferrer noopener">
+                  <a href={ele.link_url} className={styles.link} target="_blank" rel="noreferrer noopener" key={index}> 
                     {ele.link_name}
                   </a>
                 )

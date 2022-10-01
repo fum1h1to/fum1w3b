@@ -7,3 +7,4 @@ declare module '*.module.scss' {
 }
 
 declare module 'react-modal';
+declare module 'aos';
