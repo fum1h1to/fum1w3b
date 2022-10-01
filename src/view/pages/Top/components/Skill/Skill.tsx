@@ -12,7 +12,9 @@ import icon_ts from 'common/imgs/top/icon/icon-ts.png';
 import icon_node from 'common/imgs/top/icon/icon-node.png';
 import icon_gulp from 'common/imgs/top/icon/icon-gulp.png';
 import icon_react from 'common/imgs/top/icon/icon-react.png';
+import icon_mui from 'common/imgs/top/icon/icon-mui.png';
 import icon_jquery from 'common/imgs/top/icon/icon-jquery.png';
+import icon_php from 'common/imgs/top/icon/icon-php.png';
 import icon_python from 'common/imgs/top/icon/icon-python.png';
 import icon_django from 'common/imgs/top/icon/icon-django.png';
 import icon_java from 'common/imgs/top/icon/icon-java.png';
@@ -55,102 +57,133 @@ const Skill = () => {
               <LogoBox
                 name="HTML5"
                 imgsrc={icon_html5}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="CSS3"
                 imgsrc={icon_css3}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="SASS"
                 imgsrc={icon_sass}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Bootstrap5"
                 imgsrc={icon_bootstrap}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="JavaScript"
                 imgsrc={icon_js}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="jQuery"
                 imgsrc={icon_jquery}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Node.js"
                 imgsrc={icon_node}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Gulp.js"
                 imgsrc={icon_gulp}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="TypeScript"
                 imgsrc={icon_ts}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="React"
                 imgsrc={icon_react}
+                useModal={false}
+              />
+            </li>
+            <li className={styles.logoItem}>
+              <LogoBox
+                name="Material UI"
+                imgsrc={icon_mui}
+                useModal={false}
+              />
+            </li>
+            <li className={styles.logoItem}>
+              <LogoBox
+                name="PHP"
+                imgsrc={icon_php}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Python3"
                 imgsrc={icon_python}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Django"
                 imgsrc={icon_django}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Java"
                 imgsrc={icon_java}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Processing"
                 imgsrc={icon_processing}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="C/C++"
                 imgsrc={icon_cpp}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="C#"
                 imgsrc={icon_c_sharp}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Arduino"
                 imgsrc={icon_arduino}
+                useModal={false}
               />
             </li>
 
@@ -166,78 +199,91 @@ const Skill = () => {
               <LogoBox
                 name="VSCode"
                 imgsrc={icon_vscode}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Git"
                 imgsrc={icon_git}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="GitHub"
                 imgsrc={icon_github}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="SVN"
                 imgsrc={icon_svn}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Firebase"
                 imgsrc={icon_firebase}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="VirtualBox"
                 imgsrc={icon_virtualbox}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Docker"
                 imgsrc={icon_docker}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Kali Linux"
                 imgsrc={icon_kali}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Burp Suite"
                 imgsrc={icon_burpsuite}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Wireshark"
                 imgsrc={icon_wireshark}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="PostgreSQL"
                 imgsrc={icon_postgres}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Nginx"
                 imgsrc={icon_nginx}
+                useModal={false}
               />
             </li>
             <li className={styles.logoItem}>
               <LogoBox
                 name="Apache httpd"
                 imgsrc={icon_httpd}
+                useModal={false}
               />
             </li>
           </ul>

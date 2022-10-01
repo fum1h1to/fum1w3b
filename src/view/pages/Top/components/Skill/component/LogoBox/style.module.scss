@@ -9,24 +9,31 @@
     width: 100%;
     height: 95px;
     overflow: hidden;
+    border-radius: 10px;
+
+    &.click {
+      cursor: pointer;
+    }
 
     @media screen and (min-width: 801px) {
       &:hover {
         background: rgba(#fff, .3);
         border: solid 1px rgba(#44aeea, 1);
+
         .logoBox {
           &__img {
             img {
               transform: scale(1.1);
             }
           }
+
           &__name {
             transform: translateY(0);
           }
         }
       }
     }
-  
+
     @media screen and (max-width: 800px) {
       height: calc(160 / 800 * 100vw);
       overflow: visible;
@@ -37,6 +44,7 @@
     height: 100%;
     padding: 10px;
     text-align: center;
+
     img {
       transition: .3s;
       object-fit: contain;

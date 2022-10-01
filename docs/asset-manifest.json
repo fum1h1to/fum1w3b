@@ -1,11 +1,18 @@
 {
   "files": {
-    "main.css": "/220927_fumiwebs2/static/css/main.0fe85e08.css",
-    "main.js": "/220927_fumiwebs2/static/js/main.6836d349.js",
+    "main.css": "/220927_fumiwebs2/static/css/main.71e7f9a6.css",
+    "main.js": "/220927_fumiwebs2/static/js/main.b892d8fc.js",
+    "static/media/img-3dmazeon2d.gif": "/220927_fumiwebs2/static/media/img-3dmazeon2d.8a0eaccc0cc77242f9f3.gif",
+    "static/media/img-fumandetection.jpg": "/220927_fumiwebs2/static/media/img-fumandetection.6f5674cfb28b00a5005e.jpg",
+    "static/media/img-fumiweb.jpg": "/220927_fumiwebs2/static/media/img-fumiweb.670bfd1c76418345a7ca.jpg",
     "static/media/img-programming.jpg": "/220927_fumiwebs2/static/media/img-programming.97210ca51b890564a8ca.jpg",
     "static/media/icon-virtualbox.png": "/220927_fumiwebs2/static/media/icon-virtualbox.71c58a43d7c313964ac2.png",
     "static/media/img-myprof.jpg": "/220927_fumiwebs2/static/media/img-myprof.7be7a801c98bd27395ab.jpg",
     "static/media/icon-vscode.png": "/220927_fumiwebs2/static/media/icon-vscode.a61dc62c499ed3aeefdc.png",
+    "static/media/img-ecsite.jpg": "/220927_fumiwebs2/static/media/img-ecsite.23375be1c19599848874.jpg",
+    "static/media/img-whatwasido.png": "/220927_fumiwebs2/static/media/img-whatwasido.cf44f7178b328857ab9f.png",
+    "static/media/img-janken.jpg": "/220927_fumiwebs2/static/media/img-janken.7e5b2049d30491cdb86a.jpg",
+    "static/media/img-mybrain.jpg": "/220927_fumiwebs2/static/media/img-mybrain.a92e56b4f4afd221541a.jpg",
     "static/media/icon-postgres.png": "/220927_fumiwebs2/static/media/icon-postgres.52d31cc1fd8306d5ff52.png",
     "static/media/icon-python.png": "/220927_fumiwebs2/static/media/icon-python.6a5cbc319ab3ddf8ef92.png",
     "static/media/icon-react.png": "/220927_fumiwebs2/static/media/icon-react.428839d4924b447d4d50.png",
@@ -23,12 +30,14 @@
     "static/media/icon-bootstrap.png": "/220927_fumiwebs2/static/media/icon-bootstrap.268c4375260420e8d982.png",
     "static/media/icon-ts.png": "/220927_fumiwebs2/static/media/icon-ts.af108db04a54d784da9b.png",
     "static/media/icon-js.png": "/220927_fumiwebs2/static/media/icon-js.3dfb665e058d08c99f28.png",
+    "static/media/icon-mui.png": "/220927_fumiwebs2/static/media/icon-mui.058fe09b6fe24bfe87ed.png",
+    "static/media/icon-php.png": "/220927_fumiwebs2/static/media/icon-php.0a564540c19c7189202e.png",
     "index.html": "/220927_fumiwebs2/index.html",
-    "main.0fe85e08.css.map": "/220927_fumiwebs2/static/css/main.0fe85e08.css.map",
-    "main.6836d349.js.map": "/220927_fumiwebs2/static/js/main.6836d349.js.map"
+    "main.71e7f9a6.css.map": "/220927_fumiwebs2/static/css/main.71e7f9a6.css.map",
+    "main.b892d8fc.js.map": "/220927_fumiwebs2/static/js/main.b892d8fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fe85e08.css",
-    "static/js/main.6836d349.js"
+    "static/css/main.71e7f9a6.css",
+    "static/js/main.b892d8fc.js"
   ]
 }
