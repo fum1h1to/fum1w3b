@@ -11,39 +11,7 @@ import img_janken from 'common/imgs/top/product/img-janken.jpg';
 import img_3dmazeon2d from 'common/imgs/top/product/img-3dmazeon2d.gif';
 import img_mybrain from 'common/imgs/top/product/img-mybrain.jpg';
 
-import icon_html5 from 'common/imgs/top/icon/icon-html5.png';
-import icon_css3 from 'common/imgs/top/icon/icon-css3.png';
-import icon_sass from 'common/imgs/top/icon/icon-sass.png';
-import icon_bootstrap from 'common/imgs/top/icon/icon-bootstrap.png';
-import icon_js from 'common/imgs/top/icon/icon-js.png';
-import icon_ts from 'common/imgs/top/icon/icon-ts.png';
-import icon_node from 'common/imgs/top/icon/icon-node.png';
-import icon_gulp from 'common/imgs/top/icon/icon-gulp.png';
-import icon_react from 'common/imgs/top/icon/icon-react.png';
-import icon_mui from 'common/imgs/top/icon/icon-mui.png';
-import icon_jquery from 'common/imgs/top/icon/icon-jquery.png';
-import icon_php from 'common/imgs/top/icon/icon-php.png';
-import icon_python from 'common/imgs/top/icon/icon-python.png';
-import icon_django from 'common/imgs/top/icon/icon-django.png';
-import icon_java from 'common/imgs/top/icon/icon-java.png';
-import icon_processing from 'common/imgs/top/icon/icon-processing.png';
-import icon_c_sharp from 'common/imgs/top/icon/icon-c-sharp.png';
-import icon_cpp from 'common/imgs/top/icon/icon-cpp.png';
-import icon_arduino from 'common/imgs/top/icon/icon-arduino.png';
-
-import icon_vscode from 'common/imgs/top/icon/icon-vscode.png';
-import icon_git from 'common/imgs/top/icon/icon-git.png';
-import icon_github from 'common/imgs/top/icon/icon-github.png';
-import icon_svn from 'common/imgs/top/icon/icon-svn.png';
-import icon_firebase from 'common/imgs/top/icon/icon-firebase.png';
-import icon_virtualbox from 'common/imgs/top/icon/icon-virtualbox.png';
-import icon_docker from 'common/imgs/top/icon/icon-docker.png';
-import icon_kali from 'common/imgs/top/icon/icon-kali.png';
-import icon_burpsuite from 'common/imgs/top/icon/icon-burpsuite.png';
-import icon_wireshark from 'common/imgs/top/icon/icon-wireshark.png';
-import icon_postgres from 'common/imgs/top/icon/icon-postgres.png';
-import icon_nginx from 'common/imgs/top/icon/icon-nginx.png';
-import icon_httpd from 'common/imgs/top/icon/icon-httpd.png';
+import { icon_arduino, icon_bootstrap, icon_django, icon_docker, icon_firebase, icon_java, icon_mui, icon_postgres, icon_processing, icon_python, icon_react, icon_sass, icon_ts } from 'common/imgs/top/icon';
 
 const Product = () => {
   return (
