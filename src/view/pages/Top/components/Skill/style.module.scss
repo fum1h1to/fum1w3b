@@ -70,19 +70,25 @@
     flex-wrap: wrap;
 
     .logoItem {
-      width: calc(25% - 15px);
+      @media screen and (min-width: 1201px) {
+        width: calc(20% - 16px);
+        margin-bottom: 20px;
+        &:not(:nth-of-type(5n)) {
+          margin-right: 20px;
+        }
+      }
 
-      @media screen and (min-width: 801px) {
+      @media screen and (min-width: 951px) and (max-width: 1200px) {
+        width: calc(25% - 15px);
         margin-bottom: 20px;
         &:not(:nth-of-type(4n)) {
           margin-right: 20px;
         }
       }
 
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 950px) {
         width: calc(33% - 10px);
         margin-bottom: 15px;
-
         &:not(:nth-of-type(3n)) {
           margin-right: 15px;
         }

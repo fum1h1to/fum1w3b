@@ -8,7 +8,7 @@
   }
 
   .left {
-    width: calc(40% - 20px);
+    width: calc(35% - 20px);
     overflow: hidden;
     border-radius: 10px;
 
@@ -33,7 +33,7 @@
   }
 
   .right {
-    width: calc(60% - 70px);
+    width: calc(65% - 70px);
 
     @media screen and (max-width: 800px) {
       width: 100%;
