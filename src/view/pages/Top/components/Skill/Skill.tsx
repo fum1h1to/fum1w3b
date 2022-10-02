@@ -161,7 +161,7 @@ const Skill = () => {
                   <li 
                     className={styles.logoItem} 
                     key={index} 
-                    data-aos="flip-down" 
+                    data-aos="fade-up"
                     data-aos-delay={100 + (index * 100)}
                     data-aos-anchor="#aos-anchor-1"
                     data-aos-once={false}
@@ -189,7 +189,7 @@ const Skill = () => {
                   <li 
                     className={styles.logoItem}
                     key={index}
-                    data-aos="flip-down"
+                    data-aos="fade-up"
                     data-aos-delay={100 + (index * 100)}
                     data-aos-anchor="#aos-anchor-2"
                     data-aos-once={false}
