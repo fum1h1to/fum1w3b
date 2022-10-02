@@ -5,6 +5,9 @@ import Typed from 'react-typed';
 
 import bgImg from "common/imgs/top/img-programming.jpg";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+
 const Home = () => {
   const { windowScroll } = useGlobalStateContext();
 
@@ -36,7 +39,7 @@ const Home = () => {
         </div>
         <div className={styles.arrow}>
           <p>SCROLL</p>
-          <i className="fas fa-angle-double-down"></i>
+          <FontAwesomeIcon className={styles.icon} icon={faAnglesDown} />
         </div>
       </div>
     </>

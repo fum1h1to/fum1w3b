@@ -1,6 +1,8 @@
 import { useGlobalStateContext } from 'provider/GlobalStateProvider';
 import base_styles from 'common/css/base.module.scss';
 import styles from './style.module.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 
 const To_top = () => {
   const { windowScroll } = useGlobalStateContext();
@@ -17,7 +19,7 @@ const To_top = () => {
       className={`${styles['to-top']} ${windowScroll.sy > 500 ? styles.show : ''}`}
       onClick={returnTop}
     >
-      <i className="fas fa-angle-up"></i>
+      <FontAwesomeIcon icon={faAngleUp} />
     </div>
   );
 }

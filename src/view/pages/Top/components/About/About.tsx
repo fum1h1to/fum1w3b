@@ -5,6 +5,10 @@ import Typed from 'react-typed';
 
 import profImg from 'common/imgs/top/img-myprof.jpg';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 const About = () => {
   return (
     <PageSection
@@ -38,8 +42,12 @@ const About = () => {
             現在は、サイバーセキュリティの勉強の一貫として学んでいたweb関連の技術に興味を持ち、web制作会社でアルバイトとして働いている。
           </p>
           <div className={styles.icons}>
-            <a href="https://github.com/fum1h1to" target="_blank" rel="noreferrer noopener"><i className={`${styles.github} fab fa-brands fa-github`}></i></a>
-            <a href="mailto:Engineer.FumiM@gmail.com"><i className={`${styles.mail} far fa-envelope`}></i></a>
+            <a href="https://github.com/fum1h1to" target="_blank" rel="noreferrer noopener">
+              <FontAwesomeIcon className={styles.github} icon={faGithub} />
+            </a>
+            <a href="mailto:Engineer.FumiM@gmail.com">
+              <FontAwesomeIcon className={styles.mail} icon={faEnvelope} />
+            </a>
           </div>
         </div>
       </div>
