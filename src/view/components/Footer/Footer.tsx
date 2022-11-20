@@ -3,7 +3,7 @@ import './style.module.scss';
 const Footer = () => {
   return (
     <footer>
-        <small>&copy; <span>Fumihito Sudo</span> All Rights Reserved.</small>
+        <small>&copy; <span>fum1h1to</span> All Rights Reserved.</small>
     </footer>
   );
 }

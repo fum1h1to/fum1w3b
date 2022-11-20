@@ -20,13 +20,13 @@ const About = () => {
     >
       <div className={styles.wrap}>
         <div className={styles.left} data-aos="fade-in">
-          <img src={profImg} alt="須藤文仁" />
+          <img src={profImg} alt="fum1h1to" />
         </div>
         <div className={styles.right}>
           <h3>
             <span className={styles.typed}>
             <Typed 
-              strings={["Fumihito Sudo", "すどうふみひと", "須藤 文仁"]}
+            strings={["fum1h1to", "ot1h1muf", "FUM!H!TO", "OT!H!MUF"]}
               typeSpeed={100}
               startDelay={0}
               backSpeed={50}
@@ -36,7 +36,7 @@ const About = () => {
             />
             </span>
           </h3>
-          <span className={styles.word}>須藤文仁（すどうふみひと）</span>
+          <span className={styles.word}>fum1h1to</span>
           <span className={styles.word}>2002年生まれ　横浜市出身</span>
           <p>~2019年：高校では吹奏楽部に所属し、打楽器を担当。</p>
           <p>2020年：将来は、昔から興味のあった<span>サイバーセキュリティ分野</span>で働きたいと考え、<span>情報系の大学</span>に進学。<br />

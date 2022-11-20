@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className={`${base_styles.paddingLR} ${windowScroll.sy > 500 ? styles.sticky : ''}`}>
       <div className={`${styles.header} ${base_styles['max-width']}`}>
-        <h1 className={styles.header__title}><a href="#">Fumi<span>Web</span></a></h1>
+        <h1 className={styles.header__title}><a href="#">fum<span>1h1</span>to</a></h1>
         <nav className={`${styles.navbar} ${isNavOpen ? styles.active : ''}`}>
           <ul>
             <li><a href="#home" onClick={spAction}>Home</a></li>

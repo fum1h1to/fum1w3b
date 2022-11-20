@@ -21,7 +21,7 @@ const Home = () => {
       ></div>
       <div className={styles.home} id="home">
         <div className={styles.box}>
-          <h1>Fumihito <br />Sudo</h1>
+          <h1>fum1h1to</h1>
           <p>
             <span>
               <Typed
