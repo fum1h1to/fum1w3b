@@ -18,3 +18,18 @@
 - Typed.js
 - AOS
 - Font Awesome
+
+# How To
+## 開発環境
+  node: 16.17.1<br>
+  ※nodeのバージョンはvoltaで管理
+
+  ```
+  $ yarn install
+  $ yarn start
+  ```
+
+## build
+  ```
+  $ build
+  ```

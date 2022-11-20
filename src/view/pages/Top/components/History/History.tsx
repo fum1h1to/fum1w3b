@@ -10,7 +10,7 @@ const dataHistory = [
     title: "高校時代は吹奏楽部に所属",
     content: (
       <>
-        <p>高校では吹奏楽部に所属し、一般社団法人日本マーチングバンド協会が主催するマーチング全国大会に出場。在籍中に二度の日本一を経験した。</p>
+        <p>高校では吹奏楽部に所属し、<a href="https://www.japan-mba.org/" target="_blank" rel="noreferrer noopener">一般社団法人日本マーチングバンド協会</a>が主催するマーチング全国大会に出場。在籍中に二度の日本一を経験した。</p>
       </>
     )
   },
@@ -73,10 +73,10 @@ const dataHistory = [
   {
     year: 2021,
     month: 10,
-    title: "応用情報技術者試験に不合格",
+    title: "応用情報技術者試験に挑戦",
     content: (
       <>
-        <p>午後の点数が2点足りず<span>不合格</span>。</p>
+        <p>応用情報技術者試験に挑戦したものの、午後の点数が2点足りず<span>不合格</span>。</p>
       </>
     )
   },

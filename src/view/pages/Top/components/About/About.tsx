@@ -8,6 +8,7 @@ import profImg from 'common/imgs/top/img-myprof.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const About = () => {
   return (
@@ -37,17 +38,20 @@ const About = () => {
           </h3>
           <span className={styles.word}>須藤文仁（すどうふみひと）</span>
           <span className={styles.word}>2002年生まれ　横浜市出身</span>
-          <p>~2019年：高校では吹奏楽部に所属し、<a href="https://www.japan-mba.org/" target="_blank" rel="noreferrer noopener">一般社団法人日本マーチングバンド協会</a>が主催するマーチング全国大会に出場。在籍中に二度の日本一を経験した。</p>
+          <p>~2019年：高校では吹奏楽部に所属し、打楽器を担当。</p>
           <p>2020年：将来は、昔から興味のあった<span>サイバーセキュリティ分野</span>で働きたいと考え、<span>情報系の大学</span>に進学。<br />
             現在は、サイバーセキュリティの勉強の一貫として学んでいたweb関連の技術に興味を持ち、web制作会社でアルバイトとして働いている。
           </p>
           <div className={styles.icons}>
+            <a href="https://twitter.com/fum1h1to" target="_blank" rel="noreferrer noopener">
+              <FontAwesomeIcon className={styles.twitter} icon={faTwitter} />
+            </a>
             <a href="https://github.com/fum1h1to" target="_blank" rel="noreferrer noopener">
               <FontAwesomeIcon className={styles.github} icon={faGithub} />
             </a>
-            <a href="mailto:Engineer.FumiM@gmail.com">
+            {/* <a href="mailto:Engineer.FumiM@gmail.com">
               <FontAwesomeIcon className={styles.mail} icon={faEnvelope} />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
