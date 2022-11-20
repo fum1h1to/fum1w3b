@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/220927_fumiwebs2/static/css/main.f98dfa18.css",
-    "main.js": "/220927_fumiwebs2/static/js/main.7042541d.js",
+    "main.js": "/220927_fumiwebs2/static/js/main.4f9b0ae2.js",
     "static/media/img-3dmazeon2d.gif": "/220927_fumiwebs2/static/media/img-3dmazeon2d.8a0eaccc0cc77242f9f3.gif",
     "static/media/img-fumandetection.jpg": "/220927_fumiwebs2/static/media/img-fumandetection.6f5674cfb28b00a5005e.jpg",
-    "static/media/img-fumiweb.jpg": "/220927_fumiwebs2/static/media/img-fumiweb.670bfd1c76418345a7ca.jpg",
+    "static/media/img-fum1w3b.jpg": "/220927_fumiwebs2/static/media/img-fum1w3b.f3b92252600e9881de0e.jpg",
     "static/media/img-programming.jpg": "/220927_fumiwebs2/static/media/img-programming.97210ca51b890564a8ca.jpg",
     "static/media/icon-virtualbox.png": "/220927_fumiwebs2/static/media/icon-virtualbox.71c58a43d7c313964ac2.png",
     "static/media/img-myprof.jpg": "/220927_fumiwebs2/static/media/img-myprof.7be7a801c98bd27395ab.jpg",
@@ -34,10 +34,10 @@
     "static/media/icon-php.png": "/220927_fumiwebs2/static/media/icon-php.0a564540c19c7189202e.png",
     "index.html": "/220927_fumiwebs2/index.html",
     "main.f98dfa18.css.map": "/220927_fumiwebs2/static/css/main.f98dfa18.css.map",
-    "main.7042541d.js.map": "/220927_fumiwebs2/static/js/main.7042541d.js.map"
+    "main.4f9b0ae2.js.map": "/220927_fumiwebs2/static/js/main.4f9b0ae2.js.map"
   },
   "entrypoints": [
     "static/css/main.f98dfa18.css",
-    "static/js/main.7042541d.js"
+    "static/js/main.4f9b0ae2.js"
   ]
 }

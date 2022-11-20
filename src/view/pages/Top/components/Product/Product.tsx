@@ -3,7 +3,7 @@ import PageSection from '../PageSection/PageSection';
 import ProductBox from './component/ProductBox/ProductBox';
 import styles from './style.module.scss';
 
-import img_fumiweb from 'common/imgs/top/product/img-fumiweb.jpg';
+import img_fum1w3b from 'common/imgs/top/product/img-fum1w3b.jpg';
 import img_whatwasido from 'common/imgs/top/product/img-whatwasido.png';
 import img_ecsite from 'common/imgs/top/product/img-ecsite.jpg';
 import img_fumandetection from 'common/imgs/top/product/img-fumandetection.jpg';
@@ -15,8 +15,8 @@ import { icon_arduino, icon_bootstrap, icon_django, icon_docker, icon_firebase, 
 
 const dataProduct = [
   {
-    name: "FumiWeb",
-    imgsrc: img_fumiweb,
+    name: "Fum1W3b",
+    imgsrc: img_fum1w3b,
     textArea: (
       <>
         <p>このサイト</p>
