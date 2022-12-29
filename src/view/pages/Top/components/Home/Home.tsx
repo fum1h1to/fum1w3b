@@ -25,7 +25,7 @@ const Home = () => {
           <p>
             <span>
               <Typed
-                strings={["サイバーセキュリティ", "Cyber Security", "ホワイトハッカー", "White Hat Hacker"]}
+                strings={["サイバーセキュリティ", "Cyber Security", "ホワイトハッカー", "White Hat Hacker", "Web技術", "Web Technology"]}
                 typeSpeed={90}
                 startDelay={0}
                 backSpeed={60}
