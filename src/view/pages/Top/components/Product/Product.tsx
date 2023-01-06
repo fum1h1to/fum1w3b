@@ -6,12 +6,13 @@ import styles from './style.module.scss';
 import img_fum1w3b from 'common/imgs/top/product/img-fum1w3b.jpg';
 import img_whatwasido from 'common/imgs/top/product/img-whatwasido.png';
 import img_ecsite from 'common/imgs/top/product/img-ecsite.jpg';
+import img_fridroomsystem from 'common/imgs/top/product/img-fridroomsystem.gif';
 import img_fumandetection from 'common/imgs/top/product/img-fumandetection.jpg';
 import img_janken from 'common/imgs/top/product/img-janken.jpg';
 import img_3dmazeon2d from 'common/imgs/top/product/img-3dmazeon2d.gif';
 import img_mybrain from 'common/imgs/top/product/img-mybrain.jpg';
 
-import { icon_arduino, icon_bootstrap, icon_django, icon_docker, icon_firebase, icon_java, icon_mui, icon_postgres, icon_processing, icon_python, icon_react, icon_sass, icon_ts } from 'common/imgs/top/icon';
+import { icon_arduino, icon_bootstrap, icon_django, icon_docker, icon_firebase, icon_flask, icon_java, icon_m5stack, icon_mui, icon_postgres, icon_processing, icon_python, icon_react, icon_sass, icon_ts } from 'common/imgs/top/icon';
 
 const dataProduct = [
   {
@@ -71,6 +72,22 @@ const dataProduct = [
       {
         link_name: "code",
         link_url: "https://github.com/fum1h1to/220620_EcSite"
+      }
+    ]
+  },
+  {
+    name: "RFIDタグを認識するセンサを用いた人の出入りを検知するシステム",
+    imgsrc: img_fridroomsystem,
+    textArea: ( 
+      <>
+      <p>本プログラムは、<span>M5Stack</span>と<span>RFIDタグを認識するセンサ</span>を用いて人の出入りを検知するシステムである。</p>
+      </>
+    ),
+    tech_icon: [icon_m5stack, icon_python, icon_flask],
+    link: [
+      {
+        link_name: "code",
+        link_url: "https://github.com/fum1h1to/221210_RFIDRoomSystem"
       }
     ]
   },

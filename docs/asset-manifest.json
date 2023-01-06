@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/220927_fumiwebs2/static/css/main.f98dfa18.css",
-    "main.js": "/220927_fumiwebs2/static/js/main.caa2a8db.js",
+    "main.js": "/220927_fumiwebs2/static/js/main.146944ba.js",
+    "static/media/img-fridroomsystem.gif": "/220927_fumiwebs2/static/media/img-fridroomsystem.cb1eb05e13a6dae9f56e.gif",
     "static/media/img-3dmazeon2d.gif": "/220927_fumiwebs2/static/media/img-3dmazeon2d.8a0eaccc0cc77242f9f3.gif",
     "static/media/img-fumandetection.jpg": "/220927_fumiwebs2/static/media/img-fumandetection.6f5674cfb28b00a5005e.jpg",
     "static/media/img-fum1w3b.jpg": "/220927_fumiwebs2/static/media/img-fum1w3b.f3b92252600e9881de0e.jpg",
@@ -9,7 +10,9 @@
     "static/media/icon-virtualbox.png": "/220927_fumiwebs2/static/media/icon-virtualbox.71c58a43d7c313964ac2.png",
     "static/media/img-myprof.jpg": "/220927_fumiwebs2/static/media/img-myprof.7be7a801c98bd27395ab.jpg",
     "static/media/icon-vscode.png": "/220927_fumiwebs2/static/media/icon-vscode.a61dc62c499ed3aeefdc.png",
+    "static/media/icon-flask.png": "/220927_fumiwebs2/static/media/icon-flask.a513ea1d978a3bef2c16.png",
     "static/media/img-ecsite.jpg": "/220927_fumiwebs2/static/media/img-ecsite.23375be1c19599848874.jpg",
+    "static/media/icon-m5stack.png": "/220927_fumiwebs2/static/media/icon-m5stack.555cd10da7b86215a710.png",
     "static/media/img-whatwasido.png": "/220927_fumiwebs2/static/media/img-whatwasido.cf44f7178b328857ab9f.png",
     "static/media/img-janken.jpg": "/220927_fumiwebs2/static/media/img-janken.7e5b2049d30491cdb86a.jpg",
     "static/media/img-mybrain.jpg": "/220927_fumiwebs2/static/media/img-mybrain.a92e56b4f4afd221541a.jpg",
@@ -34,10 +37,10 @@
     "static/media/icon-php.png": "/220927_fumiwebs2/static/media/icon-php.0a564540c19c7189202e.png",
     "index.html": "/220927_fumiwebs2/index.html",
     "main.f98dfa18.css.map": "/220927_fumiwebs2/static/css/main.f98dfa18.css.map",
-    "main.caa2a8db.js.map": "/220927_fumiwebs2/static/js/main.caa2a8db.js.map"
+    "main.146944ba.js.map": "/220927_fumiwebs2/static/js/main.146944ba.js.map"
   },
   "entrypoints": [
     "static/css/main.f98dfa18.css",
-    "static/js/main.caa2a8db.js"
+    "static/js/main.146944ba.js"
   ]
 }
