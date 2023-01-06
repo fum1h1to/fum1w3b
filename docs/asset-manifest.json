@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/220927_fumiwebs2/static/css/main.f98dfa18.css",
-    "main.js": "/220927_fumiwebs2/static/js/main.146944ba.js",
+    "main.js": "/220927_fumiwebs2/static/js/main.b3fbd57f.js",
     "static/media/img-fridroomsystem.gif": "/220927_fumiwebs2/static/media/img-fridroomsystem.cb1eb05e13a6dae9f56e.gif",
     "static/media/img-3dmazeon2d.gif": "/220927_fumiwebs2/static/media/img-3dmazeon2d.8a0eaccc0cc77242f9f3.gif",
     "static/media/img-fumandetection.jpg": "/220927_fumiwebs2/static/media/img-fumandetection.6f5674cfb28b00a5005e.jpg",
@@ -37,10 +37,10 @@
     "static/media/icon-php.png": "/220927_fumiwebs2/static/media/icon-php.0a564540c19c7189202e.png",
     "index.html": "/220927_fumiwebs2/index.html",
     "main.f98dfa18.css.map": "/220927_fumiwebs2/static/css/main.f98dfa18.css.map",
-    "main.146944ba.js.map": "/220927_fumiwebs2/static/js/main.146944ba.js.map"
+    "main.b3fbd57f.js.map": "/220927_fumiwebs2/static/js/main.b3fbd57f.js.map"
   },
   "entrypoints": [
     "static/css/main.f98dfa18.css",
-    "static/js/main.146944ba.js"
+    "static/js/main.b3fbd57f.js"
   ]
 }
