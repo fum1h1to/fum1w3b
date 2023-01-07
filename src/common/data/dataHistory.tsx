@@ -86,8 +86,8 @@ const dataHistory = [
     )
   },
   {
-    year: 2022,
-    month: 10,
+    year: 2023,
+    month: 1,
     title: "情報処理安全確保支援士試験に合格",
     content: (
       <>
