@@ -38,6 +38,7 @@ const About = () => {
           </h3>
           <span className={styles.word}>fum1h1to</span>
           <span className={styles.word}>2002年生まれ　横浜市出身</span>
+          <span className={styles.word}>現在　大学生</span>
           <p>~2019年：高校では吹奏楽部に所属し、打楽器を担当。</p>
           <p>2020年：将来は、昔から興味のあった<span>サイバーセキュリティ分野</span>で働きたいと考え、<span>情報系の大学</span>に進学。<br />
             現在は、サイバーセキュリティの勉強の一貫として学んでいたweb関連の技術に興味を持ち、web系の企業でアルバイトとして働いている。サイバーセキュリティと共にwebのフロントエンドの知識も学んでいる。
