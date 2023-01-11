@@ -10,8 +10,10 @@ import Product from './components/Product/Product';
 import Skill from './components/Skill/Skill';
 import History from './components/History/History';
 import './style.module.scss';
+import usePageTracking from 'helper/useTracking';
 
 const Top = () => {
+  usePageTracking('/')
 
   return (
     <div className="top">
