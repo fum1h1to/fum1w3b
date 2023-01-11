@@ -42,6 +42,8 @@ jobs:
       - name: build
         env:
           CI: false
+          REACT_APP_PRODUCTION_MODE: ${{secrets.PRODUCTION_MODE}}
+          REACT_APP_TRACKING_ID: ${{secrets.TRACKING_ID}}
         run: yarn build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
