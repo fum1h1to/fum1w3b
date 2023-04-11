@@ -24,11 +24,11 @@ const dataProducts = [
     link: [
       {
         link_name: "code",
-        link_url: "https://github.com/fum1h1to/220927_fumiwebs2"
+        link_url: "https://github.com/fum1h1to/fum1w3b"
       },
       {
         link_name: "site",
-        link_url: "https://fum1h1to.github.io/220927_fumiwebs2/"
+        link_url: "https://fum1h1to.github.io/fum1w3b/"
       }
     ]
   },
@@ -46,12 +46,8 @@ const dataProducts = [
     link: [
       {
         link_name: "code",
-        link_url: "https://github.com/fum1h1to/220603_WhatWasIDo"
-      },
-      {
-        link_name: "site",
-        link_url: "https://whatwasido.firebaseapp.com/"
-      },
+        link_url: "https://github.com/fum1h1to/WhatWasIDo"
+      }
     ]
   },
   {
@@ -67,7 +63,7 @@ const dataProducts = [
     link: [
       {
         link_name: "code",
-        link_url: "https://github.com/fum1h1to/220620_EcSite"
+        link_url: "https://github.com/fum1h1to/EcSite"
       }
     ]
   },
@@ -83,7 +79,7 @@ const dataProducts = [
     link: [
       {
         link_name: "code",
-        link_url: "https://github.com/fum1h1to/221210_RFIDRoomSystem"
+        link_url: "https://github.com/fum1h1to/RFIDRoomSystem"
       }
     ]
   },
@@ -100,7 +96,7 @@ const dataProducts = [
     link: [
       {
         link_name: "code",
-        link_url: "https://github.com/fum1h1to/220702_fumanDetection"
+        link_url: "https://github.com/fum1h1to/HumanDetection"
       }
     ]
   },
@@ -116,7 +112,7 @@ const dataProducts = [
     link: [
       {
         link_name: "code",
-        link_url: "https://github.com/fum1h1to/220108_janken"
+        link_url: "https://github.com/fum1h1to/EmoJanken"
       }
     ]
   },
@@ -133,7 +129,7 @@ const dataProducts = [
     link: [
       {
         link_name: "code",
-        link_url: "https://github.com/fum1h1to/210102_3DMazeOn2D"
+        link_url: "https://github.com/fum1h1to/3DMazeOn2D"
       }
     ]
   },
@@ -150,7 +146,7 @@ const dataProducts = [
     link: [
       {
         link_name: "code",
-        link_url: "https://github.com/fum1h1to/220112_myBrain"
+        link_url: "https://github.com/fum1h1to/myBrain"
       }
     ]
   },
