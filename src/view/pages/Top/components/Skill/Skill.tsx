@@ -14,7 +14,6 @@ const Skill = () => {
       bg_color='black'
       sectionTtl="Skill"
       sectionUnderTtl="スキル"
-      sectionSubTtl='今まで触れたことのあるものを記述しています。'
     >
       <div className={styles.wrap}>
         <div className={styles.left}>
