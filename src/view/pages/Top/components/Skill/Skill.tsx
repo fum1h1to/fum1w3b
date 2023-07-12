@@ -20,7 +20,7 @@ const Skill = () => {
         <div className={styles.left}>
           <h3 className={styles.skillCategory}>
             Languages & Library
-            <span className={styles.skillCategory__subTtl}>言語とライブラリ</span>
+            <span className={styles.skillCategory__subTtl}>言語やライブラリ</span>
           </h3>
           <ul className={styles.logoList} id="aos-anchor-1">
             {
@@ -48,7 +48,7 @@ const Skill = () => {
         <div className={styles.right}>
           <h3 className={styles.skillCategory}>
             Tools & Other
-            <span className={styles.skillCategory__subTtl}>ツールとその他</span>
+            <span className={styles.skillCategory__subTtl}>ツールやその他</span>
           </h3>
           <ul className={styles.logoList} id="aos-anchor-2">
             {

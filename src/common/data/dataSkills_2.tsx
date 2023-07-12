@@ -13,10 +13,10 @@ const skilldata_2 = [
     name: "GitHub",
     imgsrc: icon_github,
   },
-  {
-    name: "SVN",
-    imgsrc: icon_svn,
-  },
+  // {
+  //   name: "SVN",
+  //   imgsrc: icon_svn,
+  // },
   {
     name: "Firebase",
     imgsrc: icon_firebase,
@@ -45,14 +45,14 @@ const skilldata_2 = [
     name: "PostgreSQL",
     imgsrc: icon_postgres,
   },
-  {
-    name: "Nginx",
-    imgsrc: icon_nginx,
-  },
-  {
-    name: "Apache httpd",
-    imgsrc: icon_httpd,
-  },
+  // {
+  //   name: "Nginx",
+  //   imgsrc: icon_nginx,
+  // },
+  // {
+  //   name: "Apache httpd",
+  //   imgsrc: icon_httpd,
+  // },
 ]
 
 export default skilldata_2;
