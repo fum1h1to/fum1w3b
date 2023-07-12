@@ -19,6 +19,7 @@ export{ default as icon_c_sharp } from './icon-c-sharp.png';
 export{ default as icon_cpp } from './icon-cpp.png';
 export{ default as icon_arduino } from './icon-arduino.png';
 export{ default as icon_m5stack } from './icon-m5stack.png';
+export{ default as icon_go } from './icon-go.png';
 
 export{ default as icon_vscode } from './icon-vscode.png';
 export{ default as icon_git } from './icon-git.png';
