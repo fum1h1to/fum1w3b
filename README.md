@@ -3,9 +3,7 @@
 自分の成果を可視化するためにもこのサイトを作成した。
 
 # Demo
-[実際のページ](https://fum1h1to.github.io/220927_fumiwebs2/)
-### MV
-![picture1](md_imgs/img-01.jpg)
+[実際のページ](https://fum1h1to.github.io/fum1w3b/)
 
 # Requirement
 ## Language

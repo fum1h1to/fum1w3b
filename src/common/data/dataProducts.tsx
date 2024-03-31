@@ -88,39 +88,6 @@ const dataProducts = [
     ]
   },
   {
-    name: "RFIDタグを認識するセンサを用いた人の出入りを検知するシステム",
-    imgsrc: img_fridroomsystem,
-    textArea: ( 
-      <>
-      <p>本プログラムは、<span>M5Stack</span>と<span>RFIDタグを認識するセンサ</span>を用いて人の出入りを検知するシステムである。</p>
-      </>
-    ),
-    tech_icon: [icon_m5stack, icon_python, icon_flask],
-    link: [
-      {
-        link_name: "code",
-        link_url: "https://github.com/fum1h1to/RFIDRoomSystem"
-      }
-    ]
-  },
-  {
-    name: "人を検知してSlackに通知、通信の暗号化",
-    imgsrc: img_fumandetection,
-    textArea: ( 
-      <>
-      <p>これは、Arduinoを用いて作られた、<span>人を検知</span>して<span>Slackに通知</span>するプログラムである。<br />また、独自の暗号化プロトコルを考え<span>通信の暗号化</span>にも挑戦した。</p>
-      <p>この装置を、不審者が入って来そうな場所に置くことで自宅の<span>防犯対策</span>になる。</p>
-      </>
-    ),
-    tech_icon: [icon_arduino, icon_python],
-    link: [
-      {
-        link_name: "code",
-        link_url: "https://github.com/fum1h1to/HumanDetection"
-      }
-    ]
-  },
-  {
     name: "感情的なじゃんけんゲーム",
     imgsrc: img_janken,
     textArea: ( 
@@ -150,23 +117,6 @@ const dataProducts = [
       {
         link_name: "code",
         link_url: "https://github.com/fum1h1to/3DMazeOn2D"
-      }
-    ]
-  },
-  {
-    name: "myBrain",
-    imgsrc: img_mybrain,
-    textArea: ( 
-      <>
-      <p>このプログラムは、自分の得た知識を保存することができる<span>知識保存システム</span>。</p>
-      <p>プログラミングなどの勉強中に学んだことを保存しておける。JavaのSwingで<span>ライトモード、ダークモード</span>の実装にも挑戦した。</p>
-      </>
-    ),
-    tech_icon: [icon_java],
-    link: [
-      {
-        link_name: "code",
-        link_url: "https://github.com/fum1h1to/myBrain"
       }
     ]
   },
