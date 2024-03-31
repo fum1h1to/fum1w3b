@@ -34,7 +34,7 @@ const Home = () => {
                 cursorChar={"|"}
               />
             </span>
-            に<br />興味のある大学生
+            に<br />興味のある人
           </p>
         </div>
         <div className={styles.arrow}>

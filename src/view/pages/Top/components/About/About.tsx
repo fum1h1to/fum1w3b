@@ -38,10 +38,10 @@ const About = () => {
           </h3>
           <span className={styles.word}>fum1h1to</span>
           <span className={styles.word}>2002年生まれ　横浜市出身</span>
-          <span className={styles.word}>大学生</span>
           <p>~2019年：高校では吹奏楽部に所属し、打楽器を担当。</p>
-          <p>2020年：将来は、昔から興味のあった<span>サイバーセキュリティ分野</span>で働きたいと考え、<span>情報系の大学</span>に進学。<br />
-            現在は、情報セキュリティ研究室に所属しセキュリティに関する研究を行ないつつ、将来セキュリティ分野で働く準備をしている。
+          <p>~2020年：将来は、昔から興味のあった<span>サイバーセキュリティ分野</span>で働きたいと考え、<span>情報系の大学</span>に進学。学部4年では、情報セキュリティ研究室に所属しセキュリティに関する研究を行った。
+          </p>
+          <p>2024年~：働いている
           </p>
           <div className={styles.icons}>
             <a href="https://twitter.com/fum1h1to" target="_blank" rel="noreferrer noopener">
